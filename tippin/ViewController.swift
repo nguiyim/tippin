@@ -15,6 +15,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func OnTap(_ sender:
+        Any) {
+        
+        print("Hello")
+        
+        view.endEditing(true)//force dismiss key board
+    }
+    
 }
 
